@@ -1,0 +1,35 @@
+# # config.yaml
+
+# paths:
+#   shapefile_input: '/scratch/kdahal3/CIROH/Maryland/S_FLD_HAZ_AR.shp'
+#   filtered_shapefile_output: '/scratch/kdahal3/CIROH/S_FLD_HAZ_AR_A.shp'
+#   raster_input: '/scratch/kdahal3/CIROH/DEM_Parameters.tif'
+#   rasterized_output: '/scratch/kdahal3/CIROH/y_train.tif'
+#   tiles_output: '/scratch/kdahal3/CIROH/tiles'
+#   labels_output: '/scratch/kdahal3/CIROH/labels'
+#   x_train: '/scratch/kdahal3/CIROH/X_train.npy'
+#   y_train: '/scratch/kdahal3/CIROH/y_train.npy'
+#   x_test: '/scratch/kdahal3/CIROH/X_test.npy'
+#   y_test: '/scratch/kdahal3/CIROH/y_test.npy'
+#   merged_raster_output: 'pred_merged.tif'
+#   vectorized_output: 'file.shp'
+#   prediction_tiles: 'prediction_tiles/'
+#   best_model: 'best_weight.keras'
+
+# config.yaml
+
+paths:
+  shapefile_input: '/scratch/kdahal3/CIROH/Maryland/S_FLD_HAZ_AR.shp'
+  raster_input: '/scratch/kdahal3/CIROH/DEM_Parameters.tif'
+  filtered_shapefile_output: 'output/S_FLD_HAZ_AR_A.shp'
+  rasterized_output: 'output/y_train.tif'
+  tiles_output: 'output/tiles'
+  labels_output: 'output/labels'
+  x_train: 'output/X_train.npy'
+  y_train: 'output/y_train.npy'
+  x_test: 'output/X_test.npy'
+  y_test: 'output/y_test.npy'
+  merged_raster_output: 'output/pred_merged.tif'
+  vectorized_output: 'output/file.shp'
+  prediction_tiles: 'output/prediction_tiles'
+  best_model: 'output/best_weight.keras'
