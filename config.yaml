@@ -22,7 +22,7 @@ data:
   nfhl_url: 'https://msc.fema.gov/portal/downloadProduct?productID=NFHL_24025C'
   nfhl_filename: '24025C_20211015.zip'
   raster_url: 'https://data.isnew.info/dl4fim/DEM_Parameters.tif'
-  raster_filename': 'DEM_Parameters.tif'
+  raster_filename: 'DEM_Parameters.tif'
 
 paths:
   shapefile_input: 'input/S_FLD_HAZ_AR.shp'
