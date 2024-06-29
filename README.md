@@ -21,9 +21,6 @@ conda config --set channel_priority strict
 conda create -n tf
 conda activate tf
 
-# install tensorflow-gpu
-conda install tensorflow-gpu
-
-# install jupyterlab
-conda install jupyterlab
+# install conda packages
+conda install tensorflow-gpu jupyterlab geopandas geotile fiona imgaug
 ```
