@@ -19,8 +19,8 @@
 # config.yaml
 
 paths:
-  shapefile_input: '/scratch/kdahal3/CIROH/Maryland/S_FLD_HAZ_AR.shp'
-  raster_input: '/scratch/kdahal3/CIROH/DEM_Parameters.tif'
+  shapefile_input: 'input/S_FLD_HAZ_AR.shp'
+  raster_input: 'input/DEM_Parameters.tif'
   filtered_shapefile_output: 'output/S_FLD_HAZ_AR_A.shp'
   rasterized_output: 'output/y_train.tif'
   tiles_output: 'output/tiles'
